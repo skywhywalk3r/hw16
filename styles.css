@@ -1,16 +1,19 @@
 .bg-box {
-  width: 100vw;
-  height: 100vh;
-  background-color: #1e691e;
+	width: 100vw;
+	height: 100vh;
+	background-color: #1e691e;
 
-  background-image: 
-    url("https://www.freeiconspng.com/uploads/lamp-png-0.png"),        /* верх */
-    url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru"), /* левая сторона */
-    url("https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png"), /* правая сторона */
-    url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png"), /* низ */
-    url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg"); /* дом по центру */
+	background-image: url('https://www.freeiconspng.com/uploads/lamp-png-0.png'),
+		/* верх */
+			url('https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru'),
+		/* левая сторона */
+			url('https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png'),
+		/* правая сторона */
+			url('https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png'),
+		/* низ */
+			url('https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg'); /* дом по центру */
 
-  background-repeat: repeat-x, repeat-y, repeat-y, repeat-x, no-repeat;
-  background-position: top, left, right, bottom, center;
-  background-size: auto 100px, 100px auto, 100px auto, auto 120px, 50%;
+	background-repeat: repeat-x, repeat-y, repeat-y, repeat-x, no-repeat;
+	background-position: top, left, right, bottom, center;
+	background-size: auto 100px, 100px auto, 100px auto, auto 120px, 50%;
 }
